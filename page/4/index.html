@@ -1,22 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
 
 
 
@@ -34,38 +27,51 @@
 
 
 
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
 
 
 
 
 
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -74,7 +80,10 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="ruijun's blog" type="application/atom+xml" />
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://en.gravatar.com/userimage/61908532/c381a0c6f956213947e545681faae5e4.jpg?size=200?v=5.0.1" />
 
 
 
@@ -93,85 +102,81 @@
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+<script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
     fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: true,
     duoshuo: {
-      userId: '0',
+      userId: 0,
       author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
 </script>
 
 
 
+
   <link rel="canonical" href="http://yoursite.com/page/4/"/>
 
-
-
-
-
-  <title>ruijun's blog</title>
-  
-
-
-
-
-
-
-
-
+  <title> ruijun's blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0b6be6bd2aa30eb47ed600c52cf2c168";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
   
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
+      <div class="header-inner"><div class="site-meta ">
+  
 
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">ruijun's blog</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle">以梦为马，不负韶华</p>
-      
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">ruijun's blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
   </div>
+  <p class="site-subtitle">以梦为马，不负韶华</p>
+</div>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
 </div>
 
 <nav class="site-nav">
@@ -191,8 +196,18 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
+          <a href="/archives" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -200,15 +215,56 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
 
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
       
     </ul>
   
 
   
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
 </nav>
-
-
 
  </div>
     </header>
@@ -223,27 +279,13 @@
       
 
   
-
-  
-  
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/06/05/使用Gradle上传aar到mavenCentral详细教程/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="liangruijun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ruijun's blog">
-    </span>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
       <header class="post-header">
@@ -251,42 +293,38 @@
         
         
           <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 
-                <a class="post-title-link" href="/2015/06/05/使用Gradle上传aar到mavenCentral详细教程/" itemprop="url">使用Gradle上传aar到mavenCentral详细教程</a></h1>
+                <a class="post-title-link" href="/2015/06/05/使用Gradle上传aar到mavenCentral详细教程/" itemprop="url">
+                  使用Gradle上传aar到mavenCentral详细教程
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-06-05T22:23:02+08:00">
-                2015-06-05
-              </time>
-            
-
-            
-
-            
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-06-05T22:23:02+08:00" content="2015-06-05">
+              2015-06-05
+            </time>
           </span>
 
           
             <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
+              &nbsp; | &nbsp;
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
+              <span class="post-meta-item-text">分类于</span>
               
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
                   <a href="/categories/Maven/" itemprop="url" rel="index">
                     <span itemprop="name">Maven</span>
                   </a>
@@ -294,40 +332,37 @@
 
                 
                 
+
               
             </span>
           
 
+          <span id="post-count">
+            &nbsp; | &nbsp; 字数&nbsp; <span class="post-count">2,588</span>
+          </span>
+
           
             
               <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
+                &nbsp; | &nbsp;
                 <a href="/2015/06/05/使用Gradle上传aar到mavenCentral详细教程/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/05/使用Gradle上传aar到mavenCentral详细教程/" itemprop="commentCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/05/使用Gradle上传aar到mavenCentral详细教程/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
           
 
           
+
+          
           
 
           
-
-          
-
-          
-
         </div>
       </header>
     
 
-    
-    
-    
+
     <div class="post-body" itemprop="articleBody">
 
       
@@ -343,29 +378,24 @@
 <li>上传library</li>
 <li>部署release版本, 发布</li>
 </ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/06/05/使用Gradle上传aar到mavenCentral详细教程/#thêm" rel="contents">
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/06/05/使用Gradle上传aar到mavenCentral详细教程/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
-          <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
-    
+    <div>
+      
+    </div>
 
-    
-
-    
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
-      
-
       
 
       
@@ -375,10 +405,6 @@
         <div class="post-eof"></div>
       
     </footer>
-  </div>
-  
-  
-  
   </article>
 
 
@@ -386,27 +412,13 @@
       
 
   
-
-  
-  
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="liangruijun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ruijun's blog">
-    </span>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
       <header class="post-header">
@@ -414,42 +426,38 @@
         
         
           <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 
-                <a class="post-title-link" href="/2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/" itemprop="url">Android Tips：Google I/O 2015 为 Android 开发者带来了哪些福利？</a></h1>
+                <a class="post-title-link" href="/2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/" itemprop="url">
+                  Android Tips：Google I/O 2015 为 Android 开发者带来了哪些福利？
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-06-01T21:41:51+08:00">
-                2015-06-01
-              </time>
-            
-
-            
-
-            
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-06-01T21:41:51+08:00" content="2015-06-01">
+              2015-06-01
+            </time>
           </span>
 
           
             <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
+              &nbsp; | &nbsp;
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
+              <span class="post-meta-item-text">分类于</span>
               
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
                   <a href="/categories/Android分享/" itemprop="url" rel="index">
                     <span itemprop="name">Android分享</span>
                   </a>
@@ -457,40 +465,37 @@
 
                 
                 
+
               
             </span>
           
 
+          <span id="post-count">
+            &nbsp; | &nbsp; 字数&nbsp; <span class="post-count">896</span>
+          </span>
+
           
             
               <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
+                &nbsp; | &nbsp;
                 <a href="/2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/" itemprop="commentCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
           
 
           
+
+          
           
 
           
-
-          
-
-          
-
         </div>
       </header>
     
 
-    
-    
-    
+
     <div class="post-body" itemprop="articleBody">
 
       
@@ -505,29 +510,24 @@
 <p>推出了 8 个<a href="http://developer.android.com/reference/android/support/design/widget/package-summary.html">新的组件</a>，同时向后兼容，新推出的这几个官方组件多是在 GitHub 上很火热的一些项目。</p>
 <p><img src="/img/Google_IO_1.jpg" alt=""></p>
 <p><a href="http://developer.android.com/reference/android/support/design/widget/AppBarLayout.html">AppBarLayout</a>：全新，用来实现各种 Material Design 概念效果的一个 Layout，主要负责对滑动的响应。<br><a href="http://developer.android.com/reference/android/support/design/widget/CollapsingToolbarLayout.html">CollapsingToolbarLayout</a>：类似<a href="http://ww2.sinaimg.cn/large/610dc034gw1eslfqhnn1lg208w08whdt.gif">这张图</a>。<br><a href="http://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html">CoordinatorLayout</a>：全新，更加彪悍的 FrameLayout。<br><a href="http://developer.android.com/reference/android/support/design/widget/FloatingActionButton.html">FloatingActionButton</a>：类似这个<a href="https://github.com/shell-software/fab">shell-software/fab</a>。<br><a href="http://developer.android.com/reference/android/support/design/widget/NavigationView.html">NavigationView</a>：全新，置于 DrawerLayout 内部的菜单。<br><a href="http://developer.android.com/reference/android/support/design/widget/Snackbar.html">Snackbar</a>：类似这个<a href="https://github.com/MrEngineer13/SnackBar">MrEngineer13/SnackBar</a><br><a href="http://developer.android.com/reference/android/support/design/widget/TabLayout.html">TabLayout</a>：普通的可滑动的 Tab。<br><a href="http://developer.android.com/reference/android/support/design/widget/TextInputLayout.html">TextInputLayout</a>：类似这个<a href="https://github.com/wrapp/floatlabelededittext">wrapp/floatlabelededittext</a>。<br>更多组件相关的细节，查看<a href="http://android-developers.blogspot.fi/2015/05/android-design-support-library.html">官方 Blog</a>。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/#thêm" rel="contents">
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/06/01/Android分享：Google-I-O-2015-为-Android-开发者带来了哪些福利？/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
-          <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
-    
+    <div>
+      
+    </div>
 
-    
-
-    
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
-      
-
       
 
       
@@ -537,10 +537,6 @@
         <div class="post-eof"></div>
       
     </footer>
-  </div>
-  
-  
-  
   </article>
 
 
@@ -548,27 +544,13 @@
       
 
   
-
-  
-  
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/05/31/Android性能：Android性能优化汇总/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="liangruijun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ruijun's blog">
-    </span>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
       <header class="post-header">
@@ -576,42 +558,38 @@
         
         
           <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 
-                <a class="post-title-link" href="/2015/05/31/Android性能：Android性能优化汇总/" itemprop="url">Android性能：Android性能优化汇总</a></h1>
+                <a class="post-title-link" href="/2015/05/31/Android性能：Android性能优化汇总/" itemprop="url">
+                  Android性能：Android性能优化汇总
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-31T18:56:45+08:00">
-                2015-05-31
-              </time>
-            
-
-            
-
-            
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-05-31T18:56:45+08:00" content="2015-05-31">
+              2015-05-31
+            </time>
           </span>
 
           
             <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
+              &nbsp; | &nbsp;
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
+              <span class="post-meta-item-text">分类于</span>
               
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
                   <a href="/categories/Android性能/" itemprop="url" rel="index">
                     <span itemprop="name">Android性能</span>
                   </a>
@@ -619,40 +597,37 @@
 
                 
                 
+
               
             </span>
           
 
+          <span id="post-count">
+            &nbsp; | &nbsp; 字数&nbsp; <span class="post-count">977</span>
+          </span>
+
           
             
               <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
+                &nbsp; | &nbsp;
                 <a href="/2015/05/31/Android性能：Android性能优化汇总/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/31/Android性能：Android性能优化汇总/" itemprop="commentCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/31/Android性能：Android性能优化汇总/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
           
 
           
+
+          
           
 
           
-
-          
-
-          
-
         </div>
       </header>
     
 
-    
-    
-    
+
     <div class="post-body" itemprop="articleBody">
 
       
@@ -668,29 +643,24 @@
 <li><a href="http://hukai.me/android-performance-battery/">Android性能优化之电量篇</a></li>
 <li><a href="http://hukai.me/android-performance-patterns-season-2/">Android性能优化典范 - 第2季</a></li>
 </ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/05/31/Android性能：Android性能优化汇总/#thêm" rel="contents">
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/05/31/Android性能：Android性能优化汇总/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
-          <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
-    
+    <div>
+      
+    </div>
 
-    
-
-    
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
-      
-
       
 
       
@@ -700,10 +670,6 @@
         <div class="post-eof"></div>
       
     </footer>
-  </div>
-  
-  
-  
   </article>
 
 
@@ -711,27 +677,13 @@
       
 
   
-
-  
-  
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/05/31/Github基本功能/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="liangruijun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ruijun's blog">
-    </span>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
       <header class="post-header">
@@ -739,42 +691,38 @@
         
         
           <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 
-                <a class="post-title-link" href="/2015/05/31/Github基本功能/" itemprop="url">Github基本功能</a></h1>
+                <a class="post-title-link" href="/2015/05/31/Github基本功能/" itemprop="url">
+                  Github基本功能
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-31T11:50:15+08:00">
-                2015-05-31
-              </time>
-            
-
-            
-
-            
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-05-31T11:50:15+08:00" content="2015-05-31">
+              2015-05-31
+            </time>
           </span>
 
           
             <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
+              &nbsp; | &nbsp;
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
+              <span class="post-meta-item-text">分类于</span>
               
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
                   <a href="/categories/Github/" itemprop="url" rel="index">
                     <span itemprop="name">Github</span>
                   </a>
@@ -782,40 +730,37 @@
 
                 
                 
+
               
             </span>
           
 
+          <span id="post-count">
+            &nbsp; | &nbsp; 字数&nbsp; <span class="post-count">1,538</span>
+          </span>
+
           
             
               <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
+                &nbsp; | &nbsp;
                 <a href="/2015/05/31/Github基本功能/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/31/Github基本功能/" itemprop="commentCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/31/Github基本功能/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
           
 
           
+
+          
           
 
           
-
-          
-
-          
-
         </div>
       </header>
     
 
-    
-    
-    
+
     <div class="post-body" itemprop="articleBody">
 
       
@@ -832,29 +777,24 @@
 <li>Pull Request：大牛做完了一份全新的高端zhi.html，点了Pull Request，也就是推送请求。我接受了，看了一眼，顿时惊讶爆表，“中国足球——高，实在是高！”</li>
 <li>现在你懂了，Github的结构是Repository-Branch-(获取/推送)文件。你又发现Github可以比较两个文件的异同，新增的部分用绿色标记，删除的部分用红色标记。Pull Request还可以控制，甚至可以合并Branch，这就是团队合作利器啊，真乃高大上也，手痒了吧？心动了吧？</li>
 </ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/05/31/Github基本功能/#thêm" rel="contents">
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/05/31/Github基本功能/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
-          <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
-    
+    <div>
+      
+    </div>
 
-    
-
-    
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
-      
-
       
 
       
@@ -864,10 +804,6 @@
         <div class="post-eof"></div>
       
     </footer>
-  </div>
-  
-  
-  
   </article>
 
 
@@ -875,27 +811,13 @@
       
 
   
-
-  
-  
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/05/31/Android开源：定制化build-gradle/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="liangruijun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ruijun's blog">
-    </span>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
       <header class="post-header">
@@ -903,42 +825,38 @@
         
         
           <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 
-                <a class="post-title-link" href="/2015/05/31/Android开源：定制化build-gradle/" itemprop="url">Android开源：定制化build.gradle</a></h1>
+                <a class="post-title-link" href="/2015/05/31/Android开源：定制化build-gradle/" itemprop="url">
+                  Android开源：定制化build.gradle
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-31T10:14:27+08:00">
-                2015-05-31
-              </time>
-            
-
-            
-
-            
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-05-31T10:14:27+08:00" content="2015-05-31">
+              2015-05-31
+            </time>
           </span>
 
           
             <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
+              &nbsp; | &nbsp;
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
+              <span class="post-meta-item-text">分类于</span>
               
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
                   <a href="/categories/Android开源/" itemprop="url" rel="index">
                     <span itemprop="name">Android开源</span>
                   </a>
@@ -946,40 +864,37 @@
 
                 
                 
+
               
             </span>
           
 
+          <span id="post-count">
+            &nbsp; | &nbsp; 字数&nbsp; <span class="post-count">2,652</span>
+          </span>
+
           
             
               <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
+                &nbsp; | &nbsp;
                 <a href="/2015/05/31/Android开源：定制化build-gradle/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/31/Android开源：定制化build-gradle/" itemprop="commentCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/31/Android开源：定制化build-gradle/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
           
 
           
+
+          
           
 
           
-
-          
-
-          
-
         </div>
       </header>
     
 
-    
-    
-    
+
     <div class="post-body" itemprop="articleBody">
 
       
@@ -993,29 +908,24 @@
 <li>定制debug， release代码，显示不同字符串等</li>
 <li>打包时候，删除没有用的资源文件</li>
 </ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/05/31/Android开源：定制化build-gradle/#thêm" rel="contents">
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/05/31/Android开源：定制化build-gradle/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
-          <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
-    
+    <div>
+      
+    </div>
 
-    
-
-    
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
-      
-
       
 
       
@@ -1025,10 +935,6 @@
         <div class="post-eof"></div>
       
     </footer>
-  </div>
-  
-  
-  
   </article>
 
 
@@ -1061,81 +967,149 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">liangruijun</p>
-              <p class="site-description motion-element" itemprop="description">以梦为马，不负韶华</p>
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://en.gravatar.com/userimage/61908532/c381a0c6f956213947e545681faae5e4.jpg?size=200"
+               alt="liangruijun" />
+          <p class="site-author-name" itemprop="name">liangruijun</p>
+          <p class="site-description motion-element" itemprop="description">以梦为马，不负韶华</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">33</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
           </div>
 
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">33</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">19</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">54</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
           
-            <div class="feed-link motion-element">
-              <a href="/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-name">分类</span>
               </a>
             </div>
           
 
           
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">54</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
 
-          
-          
+        </nav>
 
-          
-          
+        
 
+        <div class="links-of-author motion-element">
           
-
+            
+              <span class="links-of-author-item">
+                <a href="http://www.liangruijun.com" target="_blank" title="主页">
+                  
+                    <i class="fa fa-fw fa-android"></i>
+                  
+                  主页
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/ruijun" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/liangruijun" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-comments"></i>
+                  
+                  知乎
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:lingdududu@163.com" target="_blank" title="邮箱">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                  邮箱
+                </a>
+              </span>
+            
+          
         </div>
-      </section>
 
-      
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.trinea.cn/" title="Trinea的博客" target="_blank">Trinea的博客</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://stormzhang.com/" title="stormzhang的博客" target="_blank">stormzhang的博客</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://hukai.me/" title="胡凯的博客" target="_blank">胡凯的博客</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://blog.csdn.net/luoshengyang" title="老罗Android之旅" target="_blank">老罗Android之旅</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://blog.csdn.net/lmj623565791" title="鸿洋的博客" target="_blank">鸿洋的博客</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://gityuan.com/" title="gityuan的博客" target="_blank">gityuan的博客</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.devtf.cn/" title="开发技术前线" target="_blank">开发技术前线</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.androidweekly.cn/" title="技术周报" target="_blank">技术周报</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.jcodecraeer.com/" title="泡在网上的日子" target="_blank">泡在网上的日子</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://gank.io/" title="Gank" target="_blank">Gank</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
 
       
 
@@ -1149,50 +1123,49 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">liangruijun</span>
-
-  
 </div>
 
+<!-- <div class="busuanzi">
+  <span id="busuanzi_container_site_pv">
+    总访问量<span id="busuanzi_value_site_pv"></span>次
+  </span>
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+  <span id="busuanzi_container_site_uv">
+    &nbsp; | &nbsp; 访客数<span id="busuanzi_value_site_uv"></span>人
+  </span>
+</div> -->
 
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
 
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
-
-
-
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
 
         
-
-
-
-
-
-
 
         
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
   
@@ -1215,64 +1188,50 @@
 
 
 
-
-
-
-
-
-
-
-
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
 
 
 
   
   
 
-  
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
 
+  
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
 
 
 
@@ -1297,8 +1256,7 @@
 
   
     
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
     <script src="/js/src/hook-duoshuo.js"></script>
   
 
@@ -1307,38 +1265,144 @@
 
 
 
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
 
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
 
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
 
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
 
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
 
+    });
 
-
-
-
-
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
 
 
   
 
-
-
-
-
   
 
   
-
-  
-
-  
-  
-
-  
-
-  
-
-  
+  <script type="text/javascript" src="/js/src/particle.js"></script>
 
 </body>
 </html>
